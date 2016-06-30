@@ -33,9 +33,10 @@ def selector
       "http://scaruffi.com/",
       "http://www.tim.org/",
       "http://www.doughney.net/tasty/#meat",
-      "http://www.fluffy.com/fluffy/Fluffyhome.html"]
+      "http://www.fluffy.com/fluffy/Fluffyhome.html",
+      "/views/meow.html"]
 
   return @linksArray.sample
-end
+ends
 
 selector
