@@ -7,7 +7,7 @@ def selector
       "http://www.constellation7.org/Constellation-Seven/Josiah/Index.htm",
       "http://www.trypap.com/"]
 
-  @link = @linksArray.sample
+  return @linksArray.sample
 end
 
 selector
