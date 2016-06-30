@@ -10,4 +10,9 @@ class MyApp < Sinatra::Base
 
   end
 
+get '/link' do
+  @link=selector
+  erb :link
+end
+
 end
