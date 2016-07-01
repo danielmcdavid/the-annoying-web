@@ -7,12 +7,13 @@ class MyApp < Sinatra::Base
   get '/' do
     @link=selector
     erb :index
-
   end
 
 get '/link' do
   @link=selector
   erb :link
+end
+get '/test' do
   erb :test
 end
 
