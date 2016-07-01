@@ -13,7 +13,11 @@ class MyApp < Sinatra::Base
 get '/link' do
   @link=selector
   erb :link
+end
+get '/test' do
   erb :test
 end
+
+
 
 end
