@@ -6,7 +6,11 @@ class MyApp < Sinatra::Base
 
   get '/' do
     @link=selector
+
     erb :test
+
+
+    erb :index
 
   end
 
